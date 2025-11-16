@@ -1,8 +1,6 @@
 from django.apps import AppConfig
 
 
-class OidcClientConfig(AppConfig):
+class IdpConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'oidc_client'
-
-
+    name = 'idp'
